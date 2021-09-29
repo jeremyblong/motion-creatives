@@ -1,0 +1,8 @@
+.img-responsive {
+    width: 18vw !important;
+    min-height: 50vh;
+    object-fit: cover;
+}
+.special-hover-state-custom:hover {
+    opacity: 0.4 !important;
+}

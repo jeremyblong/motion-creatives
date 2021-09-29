@@ -1,0 +1,36 @@
+{
+  "name": "client-project-taylor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm run start\" \"cd client && npm start\"",
+    "heroku-postbuild": "NODE_ENV=production cd client && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "blob-to-buffer": "^1.2.9",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.10",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "socket.io": "^3.0.3",
+    "uuid": "^8.3.1"
+  }
+}

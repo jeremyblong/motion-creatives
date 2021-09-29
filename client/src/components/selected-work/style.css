@@ -1,0 +1,36 @@
+.long-width-short-two {
+    max-width: 100%;
+    max-height: 250px;
+    min-width: 100%;
+    margin-top: 10px;
+    min-height: 100% !important;
+    object-fit: cover !important;
+}
+#max {
+    max-width: calc(100vw - 316px) !important;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 750px) {
+    #max {
+        max-width: calc(100vw) !important;
+    
+        margin-left: 0px;
+    }
+}
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+    #max {
+        max-width: calc(100vw) !important;
+        margin-left: 0px;
+        margin-left: -316px !important;
+    }
+}
+
+.non-hover {
+    opacity: 0.4;
+}
+.dark-col {
+    background-color: black !important;
+}
+.hovered-state-two {
+    margin-top: 5px !important;
+}

@@ -1,0 +1,17 @@
+.left-space {
+    margin-left: 325px;
+}
+@media only screen and (max-width: 750px) {
+    .hide-mobile {
+        display: none !important
+    }
+}
+html, body {
+    overflow-x: hidden !important;
+}
+.bold {
+    font-weight: bold !important;
+}
+html, body {
+    font-family: bebas neue !important;
+}

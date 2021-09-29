@@ -1,0 +1,47 @@
+.avatar-xl img {
+    max-width: 150px !important;
+    max-height: 150px !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.text-muted {
+    color: #aeb0b4 !important;
+}
+.text-muted {
+    font-weight: 300;
+}
+.avatar-xl {
+    max-width: 150px !important;
+    max-height: 150px !important;
+}
+.custom-contain {
+    -webkit-box-shadow: 2px 2px 27px 0px rgba(32, 9, 18, 0.73);
+    -moz-box-shadow:    2px 2px 27px 0px rgba(32, 9, 18, 0.73);
+    box-shadow:         2px 2px 27px 0px rgba(32, 9, 18, 0.73);
+    background-image: url("../../../assets/images/bg/01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgrey;
+}
+.inner-content {
+    padding-top: 50px;
+}
+.form-input-custom {
+    min-height: 40px !important;
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+}
+.form-row-custom {
+    margin-top: 30px !important;
+}
+#input {
+    padding-left: 10px !important;
+}
+.min-height {
+    min-height: 300px;
+}

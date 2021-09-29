@@ -1,0 +1,164 @@
+.left {
+    float: left;
+    padding-left: 20px;
+}
+.center {
+    margin: 0 auto;
+}
+.right {
+    float: right;
+    padding-right: 20px;
+}
+.long-width-short {
+    max-width: 100%;
+    max-height: 250px;
+    min-width: 100%;
+    margin-top: 10px;
+    object-fit: cover !important;
+}
+@media only screen and (max-width: 750px) {
+    .side-navigation-full {
+        display: none !important;
+    }
+    .mobile-strip-custom {
+        display: none !important;
+    }
+    .left-space {
+        max-width: 100vw !important;
+        margin: 0px !important;
+    }
+    .react-responsive-modal-overlay {
+        max-height: 100vh !important;
+        max-width: 100vw !important;
+        min-height: 1000px !important;
+    }
+    .react-responsive-modal-root {
+        margin-left: -15px !important;
+    }
+    .image-gallery-image {
+        max-width: 75vw !important;
+    }
+    .dark-container-class {
+        background-color: black !important;
+        color: white !important;
+        padding-right: 50px;
+        min-width: 100vw !important;
+    }
+    .container-class {
+        min-width: 100vw!important;
+        margin-left: 0px !important;
+    }
+    .pointer-one {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+    }
+    .pointer-two {
+        position: absolute;
+        top: 10px;
+        right: 0px;
+    }
+    .lower-margin {
+        margin-bottom: 75px;
+    }
+    #video-con {
+        margin-left: -20px;
+    }
+}
+
+@media only screen and (min-width: 751px) {
+    .absolute-image-sig-two {
+        display: none !important;
+    }
+    .container-class {
+        position: absolute;
+        max-width: 70vw !important;
+        margin-left: 0px !important;
+    }
+    .left-space {
+        width: 100%;
+        margin-left: 316px !important;
+        max-width: 100vw !important;
+    }
+}
+#special-list {
+    list-style-type: none;
+}
+#special-list li {
+    text-align: center !important;
+}
+.react-responsive-modal-modal {
+    z-index: 999999999999999 !important;
+    background-color: black !important;
+    width: 100vw !important;
+    min-width: 85vw !important;
+}
+.react-responsive-modal-overlay, .react-responsive-modal-root {
+    max-height: 100vh !important;
+}
+.big-video {
+    min-width: 100%;
+    max-height: 366px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+}
+.pointer:hover {
+    cursor: pointer;
+}
+.react-responsive-modal-closeButton {
+    background-color: white !important;
+}
+.black-line {
+    border-bottom: 1px solid black;
+}
+.li-px {
+    font-size: 13px;
+}
+.dark-mode-btns-top {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.custom-img-width {
+    width: 400px;
+    min-width: 500px;
+    margin-left: -80px;
+}
+#react-burger-menu-btn span{ 
+    border: 2px solid white !important
+}
+.dark-container-class {
+    background-color: black !important;
+    color: white !important;
+    padding-right: 50px;
+    min-width: 75vw;
+}
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+    .dark-container-class {
+        background-color: black !important;
+        color: white !important;
+        padding-right: 50px;
+        min-width: 60vw;
+    }
+    .container-class {
+        min-width: 100vw;
+        margin-left: -316px !important;
+    }
+    .side-navigation-full {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .dark-container-class {
+        background-color: black !important;
+        color: white !important;
+        padding-right: 250px !important;
+        min-width: 85vw;
+        padding-left: 150px !important;
+    }
+}
+.thicker {
+    padding: 8px !important;
+}

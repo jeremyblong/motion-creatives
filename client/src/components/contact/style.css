@@ -1,0 +1,35 @@
+.fancy {
+    font-size: 20px;
+}
+.fancy-helper {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.dark-background-custom {
+    background-color: black !important;
+    color: white !important;
+    min-height: 100vh;
+}
+#my-custom-left-space-background {
+    background-image: url("../../assets/images/oh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.fancy-helper-dark {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.left-left {
+    left: -100px;
+}
+@media only screen and (max-width: 1000px) {
+    .left-left {
+        left: 0px !important;
+    }
+}
+.white-overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+}

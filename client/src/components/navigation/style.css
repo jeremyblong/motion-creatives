@@ -1,0 +1,122 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: black !important;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #fdfdfd;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: black;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+    width: 100% !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+.menu-item {
+    font-size: 28px;
+    color: white !important;
+}
+.bm-morph-shape {
+    background-color: black !important;
+}
+.dark-mode-btns {
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 30px;
+}
+.dark-mode-img {
+    max-width: 15px;
+    max-height: 15px;
+    margin-left: 20px;
+}
+.side-navigation-full {
+    min-width: 316px;
+    left: 0px !important;
+    padding-top: 150px !important;
+    position: fixed;
+    z-index: 1;
+    max-width: 316px;
+    min-height: 100vh;
+    background-color: white;
+    padding-right: 20px;
+}
+.side-navigation-full-dark {
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    min-width: 316px;
+    left: 0px !important;
+    padding-top: 150px !important;
+    position: fixed;
+    z-index: 1;
+    max-width: 316px;
+    min-height: 100vh;
+}
+#bts-link-two {
+    position: absolute;
+    right: 30px;
+}
+.side-navigation-full-dark {
+    background-color: black !important;
+    color: white;
+}
+.absolute-image-sig-white {
+    position: fixed;
+    margin-left: -100px;
+    margin-top: 60px;
+}

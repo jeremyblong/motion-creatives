@@ -1,0 +1,36 @@
+.max-width {
+    max-width: 75vw !important;
+}
+@media only screen and (max-width: 900px) {
+    .stills-side-nav {
+        display: none !important;
+    }
+    .max-width {
+        max-width: 100vw !important;
+    }
+    .left-mobile {
+        margin-left: 0px !important;
+    }
+}
+.stills-side-nav {
+    width: 20vw !important;
+    max-width: 20vw !important;
+}
+.taller {
+    min-height: 400px !important;
+}
+.item {
+    border: 2px solid white !important;
+}
+.masonry {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
+.stills-side-nav-dark {
+    background-color: black;
+    color: white !important;
+}
+.masonry-dark {
+    background-color: black;
+}

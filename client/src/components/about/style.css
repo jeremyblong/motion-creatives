@@ -1,0 +1,24 @@
+.medium-img {
+    max-width: 100%;
+    max-height: 400px;
+    min-height: 400px;
+}
+.lead-small {
+    font-size: 12px;
+}
+.shift-left {
+    left: 0px;
+}
+@media only screen and (max-width: 800px) {
+    #top-text {
+        padding-top: 100px;
+    }
+}
+.hover-text:hover {
+    cursor: pointer;
+}
+.my-container {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
