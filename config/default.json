@@ -1,5 +1,5 @@
 {
-    "mongoURI": "mongodb+srv://taylortheman2020:taylortheman2020@cluster0.0bhkd.mongodb.net/users?retryWrites=true&w=majority",
-    "wasabiAccessKey": "1ODV69XFM6581P51D2Q0",
-    "wasabiSecretKey": "19OIV7HKQ2IlQ2e799OqUioZbL45VmUjcTt7kLHv"
+    "mongoURI": "",
+    "wasabiAccessKey": "",
+    "wasabiSecretKey": ""
 }
